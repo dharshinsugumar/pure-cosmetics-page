@@ -224,9 +224,10 @@ function Index() {
                 key={category.name}
                 className={`${category.bg} shrink-0 basis-28 snap-start rounded-3xl p-4 text-center ring-1 ring-cocoa/5 transition-transform hover:-translate-y-1 md:basis-auto`}
               >
-                <div className="mx-auto mb-3 grid h-12 w-12 place-items-center rounded-2xl bg-cream/70 text-2xl">
+                <div className="mx-auto mb-3 grid h-12 w-12 place-items-center rounded-2xl bg-cream/70 text-cocoa-dark">
                   {category.icon}
                 </div>
+
                 <p className="font-display text-sm font-semibold text-cocoa-dark md:text-base">
                   {category.name}
                 </p>
